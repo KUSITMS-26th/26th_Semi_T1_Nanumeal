@@ -6,7 +6,8 @@
 
 # _✨Nanumeal, 나누밀✨_
 
-> 나누밀은 학생 단체와 기업을 연결함으로써 **네트워크를 구축**하고, **새로운 가치를 창출**하는 플랫폼입니다.
+### 나눔이 배부를 때까지
+나눔을 미루(meal)지 말고 나눔을 밀(meal)어주세요!
 
 ### 📑 팀명 : 바른먹거리풀먹어 
 #### R&R
@@ -116,7 +117,7 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 <img src="https://img.shields.io/badge/Java-3776AB?style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=Android Studio&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"> <img src="https://img.shields.io/badge/Aws-2496ED?style=for-the-badge&logo=Aws&logoColor=white">
 #### 기술 스택 선정 이유
-  - Use Case를 고려했을 때, 우리 서비스를 이용하는 고객은 결식아동과 기부자입니다. 
+  - Use Case를 고려했을 때, 나누밀 서비스를 이용하는 고객은 결식아동 및 기부자입니다. 
   - 결식아동과 기부자는 Android 기기를 사용하며, 앱 페이지를 통해 제휴가 맺어진 가게에서 기부를 받고, 기부를 할 수 있습니다.
   - Android와 Server와의 통신을 위해 Spring Boot 프레임워크와 유저의 로그인 정보를 더 안전하게 관리할 수 있는 Spring Security 프레임워크를 사용했습니다.
   - 데이터베이스는 기업과 유저의 정보를 안전하게 관리할 수 있는 RDBMS인 MySQL을 사용했습니다.
@@ -153,6 +154,10 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 |7|병합 : git merge origin/내 브랜치|
 |8|메인 브랜치로 이동: git checkout main|
 |9|푸시: git push|
+
+> Git Flow
+
+![README_GitFlow](https://mblogthumb-phinf.pstatic.net/MjAxODAyMDNfOTgg/MDAxNTE3NjI3MzI0NjU1.V2GkhqrdgVSj0N7n8PDlWb9JvEQInMis5jW1b7QnCE8g.PQtKm7LOuraB3UeBICJ-byEe4SOTiWfIzQylWvzAPxog.PNG.aufcl4858/kF7Uf.png?type=w2)
 
 ### 📑 주요기능 명세서
 
@@ -216,3 +221,51 @@ cf) 출처 : 강득구 더불어민주당 의원실 자료
 ### 📑 소프트웨어 아키텍처
 
 ![README_Architecture](https://user-images.githubusercontent.com/77184523/194487013-63c90418-c845-4b01-ace0-a5a75e95ff34.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+필수 요소
+[공통] - 팀명 - R&R
+[디자인]
+- 서비스 로고
+- 디자인 무드보드
+[기획]
+- 서비스명
+- 서비스 소개 (Head Copy, Sub copy) - 목적 및 필요성
+- User Research 및 시장 조사 내용
+- 서비스 타겟층 분석
+- 핵심 기능 정의
+- Business Model 설계
+[개발]
+- 기술 스택 선정이유
+- 그라운드 룰, 커밋 컨벤션
+- 소프트웨어 아키텍처
+- 주요 기능 명세서
+● 기능 사항 ID (넘버링 or 인덱싱)
+● 기능/비기능 타입 분류 ● 우선순위등
+선택 요소
+[디자인]
+- 프로젝트 대표 이미지 - Splash 화면
+- 디자인 시스템 구조
+- UX/UI 룰
+[기획]
+- 유저 journey map
+- 페르소나 정의
+- 스토리보드
+- 타겟 그룹 별 시나리오̤̫
+[개발]
+- 디자인 패턴
+- 외부 모듈 통신 방법
+-->
